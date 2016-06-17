@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-class Card extends Recat.Component{
+class Card extends React.Component{
   render() {
     let styles = {
       card: {
@@ -20,7 +20,7 @@ class Card extends Recat.Component{
 
     return (
       <div style={styles.card}>
-        <h1 style="{styles.title}">{htis.props.title}</h1>
+        <h1 style="{styles.title}">{this.props.title}</h1>
       </div>
     );
   }
