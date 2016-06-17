@@ -20,7 +20,7 @@ class Card extends React.Component{
 
     return (
       <div style={styles.card}>
-        <h1 style="{styles.title}">{this.props.title}</h1>
+        <h1 style={styles.title}>{this.props.title}</h1>
       </div>
     );
   }
