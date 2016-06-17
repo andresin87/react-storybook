@@ -17,6 +17,10 @@ class Card extends React.Component{
         fontFamily: 'Helvetica Neue'
       }
     };
+    
+    if(this.props.background) {
+      styles.card.background = this.props.background;
+    }
 
     return (
       <div style={styles.card}>
