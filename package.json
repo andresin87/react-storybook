@@ -27,7 +27,7 @@
     "@kadira/storybook": "^1.32.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
-  }
+  },
   "devDependencies": {
     "@kadira/storybook-deployer": "^1.0.0"
   }
