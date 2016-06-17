@@ -17,7 +17,6 @@ Then you can run the project
  ```
 
  #Test
-You can test the project in its [Github project page]( https://github.com/andresin87/react-storybook.git
-).
+You can test the project in its [Github pages project page]( https://andresin87.github.io/react-storybook/).
 
 This feature has been done with __@kadira/storybook-deployer__ package.
