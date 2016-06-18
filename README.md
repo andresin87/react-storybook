@@ -16,7 +16,7 @@ Then you can run the project
  npm run storybook
  ```
 
- #Test
+# Test
 You can test the project in its [Github pages project page]( https://andresin87.github.io/react-storybook/).
 
 This feature has been done with __@kadira/storybook-deployer__ package.
