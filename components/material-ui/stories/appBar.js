@@ -12,8 +12,6 @@ import MenuItem from 'material-ui/MenuItem';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import { storiesOf, action } from '@kadira/storybook';
 
-console.log(BaseTheme);
-
 storiesOf('Appbar', module)
 .add('Default', () => (
   <div>
