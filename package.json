@@ -27,7 +27,8 @@
     "@kadira/storybook": "^1.32.1",
     "material-ui": "^0.15.0",
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0"
   },
   "devDependencies": {
     "@kadira/storybook-deployer": "^1.0.0"
