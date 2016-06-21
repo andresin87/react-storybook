@@ -1,4 +1,4 @@
-require('../../../dist/assets/stylesheets/index.css');
+require('../../../public/assets/stylesheets/index.css');
 
 import './appBar';
 import './autoComplete';
