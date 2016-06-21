@@ -2,53 +2,53 @@
 
 @font-face {
   font-family: 'Sk-Modernist Mono';
-  src: url('../fonts/hinted-Sk-Modernist-Mono.eot');
-  src: url('../fonts/hinted-Sk-Modernist-Mono.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/hinted-Sk-Modernist-Mono.woff2') format('woff2'),
-  url('../fonts/hinted-Sk-Modernist-Mono.woff') format('woff'),
-  url('../fonts/hinted-Sk-Modernist-Mono.ttf') format('truetype'),
-  url('../fonts/hinted-Sk-Modernist-Mono.svg#Sk-Modernist-Mono') format('svg');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Mono.eot');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Mono.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Mono.woff2') format('woff2'),
+  url('/assets/fonts/hinted-Sk-Modernist-Mono.woff') format('woff'),
+  url('/assets/fonts/hinted-Sk-Modernist-Mono.ttf') format('truetype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Mono.svg#Sk-Modernist-Mono') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Sk-Modernist';
-  src: url('../fonts/hinted-Sk-Modernist-Regular.eot');
-  src: url('../fonts/hinted-Sk-Modernist-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/hinted-Sk-Modernist-Regular.woff2') format('woff2'),
-  url('../fonts/hinted-Sk-Modernist-Regular.woff') format('woff'),
-  url('../fonts/hinted-Sk-Modernist-Regular.ttf') format('truetype'),
-  url('../fonts/hinted-Sk-Modernist-Regular.svg#Sk-Modernist-Regular') format('svg');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Regular.eot');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Regular.woff2') format('woff2'),
+  url('/assets/fonts/hinted-Sk-Modernist-Regular.woff') format('woff'),
+  url('/assets/fonts/hinted-Sk-Modernist-Regular.ttf') format('truetype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Regular.svg#Sk-Modernist-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Sk-Modernist';
-  src: url('../fonts/hinted-Sk-Modernist-Bold.eot');
-  src: url('../fonts/hinted-Sk-Modernist-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/hinted-Sk-Modernist-Bold.woff2') format('woff2'),
-  url('../fonts/hinted-Sk-Modernist-Bold.woff') format('woff'),
-  url('../fonts/hinted-Sk-Modernist-Bold.ttf') format('truetype'),
-  url('../fonts/hinted-Sk-Modernist-Bold.svg#Sk-Modernist-Bold') format('svg');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Bold.eot');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Bold.woff2') format('woff2'),
+  url('/assets/fonts/hinted-Sk-Modernist-Bold.woff') format('woff'),
+  url('/assets/fonts/hinted-Sk-Modernist-Bold.ttf') format('truetype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Bold.svg#Sk-Modernist-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Sk-Modernist';
-  src: url('../fonts/hinted-Sk-Modernist-Light.eot');
-  src: url('../fonts/hinted-Sk-Modernist-Light.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/hinted-Sk-Modernist-Light.woff2') format('woff2'),
-  url('../fonts/hinted-Sk-Modernist-Light.woff') format('woff'),
-  url('../fonts/hinted-Sk-Modernist-Light.ttf') format('truetype'),
-  url('../fonts/hinted-Sk-Modernist-Light.svg#Sk-Modernist-Light') format('svg');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Light.eot');
+  src: url('/assets/fonts/hinted-Sk-Modernist-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Light.woff2') format('woff2'),
+  url('/assets/fonts/hinted-Sk-Modernist-Light.woff') format('woff'),
+  url('/assets/fonts/hinted-Sk-Modernist-Light.ttf') format('truetype'),
+  url('/assets/fonts/hinted-Sk-Modernist-Light.svg#Sk-Modernist-Light') format('svg');
   font-weight: 300;
   font-style: normal;
 }
 
 
 body{
- font-family: 'Sk-Modernist Mono';
+  font-family: 'Sk-Modernist';
 }
