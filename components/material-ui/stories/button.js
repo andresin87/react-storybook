@@ -8,10 +8,13 @@ import { storiesOf, action } from '@kadira/storybook';
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
+import IconButton from 'material-ui/IconButton';
 
 import FontIcon from 'material-ui/FontIcon';
 import ActionAndroid from 'material-ui/svg-icons/action/android'
 import ContentAdd from 'material-ui/svg-icons/content/add';
+import ActionHome from 'material-ui/svg-icons/action/home';
+import ActionGrade from 'material-ui/svg-icons/action/grade';
 import {fullWhite} from 'material-ui/styles/colors';
 
 const styles = {
@@ -25,6 +28,36 @@ const styles = {
     width: '100%',
     opacity: 0
   }
+};
+
+const styles2 = {
+  smallIcon: {
+    width: 36,
+    height: 36,
+  },
+  mediumIcon: {
+    width: 48,
+    height: 48,
+  },
+  largeIcon: {
+    width: 60,
+    height: 60,
+  },
+  small: {
+    width: 72,
+    height: 72,
+    padding: 16,
+  },
+  medium: {
+    width: 96,
+    height: 96,
+    padding: 24,
+  },
+  large: {
+    width: 120,
+    height: 120,
+    padding: 30,
+  },
 };
 
 storiesOf('Button', module)
@@ -167,6 +200,103 @@ storiesOf('Button', module)
         <FloatingActionButton mini={true} disabled={true} style={{marginRight: 20}}>
           <ContentAdd />
         </FloatingActionButton>
+      </div>
+    </MuiThemeProvider>
+  </div>
+))
+.add('Icon Button', () => (
+  <div>
+    <MuiThemeProvider
+      muiTheme={getMuiTheme({})}
+    >
+      <div>
+        <h1>Simple example</h1>
+        <IconButton iconClassName="muidocs-icon-custom-github" />
+        <IconButton iconClassName="muidocs-icon-custom-github" disabled={true} />
+        <h1>Further Examples</h1>
+        <IconButton tooltip="Font Icon">
+          <FontIcon className="muidocs-icon-action-home" />
+        </IconButton>
+
+        <IconButton tooltip="SVG Icon">
+          <ActionHome />
+        </IconButton>
+
+        <IconButton
+          iconClassName="material-icons"
+          tooltip="Ligature"
+        >
+          home
+        </IconButton>
+        <h1>Size Examples</h1>
+        <IconButton>
+          <ActionHome />
+        </IconButton>
+
+        <IconButton
+          iconStyle={styles2.smallIcon}
+          style={styles2.small}
+        >
+          <ActionHome />
+        </IconButton>
+
+        <IconButton
+          iconStyle={styles2.mediumIcon}
+          style={styles2.medium}
+        >
+          <ActionHome />
+        </IconButton>
+
+        <IconButton
+          iconStyle={styles2.largeIcon}
+          style={styles2.large}
+        >
+          <ActionHome />
+        </IconButton>
+        <h1>Tooltip Examples</h1>
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="bottom-right"
+          tooltipPosition="bottom-right"
+        />
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="bottom-center"
+          tooltipPosition="bottom-center"
+        />
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="bottom-left"
+          tooltipPosition="bottom-left"
+        />
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="top-right"
+          tooltipPosition="top-right"
+        />
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="top-center"
+          tooltipPosition="top-center"
+        />
+        <IconButton
+          iconClassName="muidocs-icon-custom-github" tooltip="top-left"
+          tooltipPosition="top-left"
+        />
+        <h1>Touch Example</h1>
+        <IconButton tooltip="bottom-right" touch={true} tooltipPosition="bottom-right">
+          <ActionGrade />
+        </IconButton>
+        <IconButton tooltip="bottom-center" touch={true} tooltipPosition="bottom-center">
+          <ActionGrade />
+        </IconButton>
+        <IconButton tooltip="bottom-left" touch={true} tooltipPosition="bottom-left">
+          <ActionGrade />
+        </IconButton>
+        <IconButton tooltip="top-right" touch={true} tooltipPosition="top-right">
+          <ActionGrade />
+        </IconButton>
+        <IconButton tooltip="top-center" touch={true} tooltipPosition="top-center">
+          <ActionGrade />
+        </IconButton>
+        <IconButton tooltip="top-left" touch={true} tooltipPosition="top-left">
+          <ActionGrade />
+        </IconButton>
       </div>
     </MuiThemeProvider>
   </div>
