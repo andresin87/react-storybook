@@ -7,9 +7,11 @@ import { storiesOf, action } from '@kadira/storybook';
 
 import FlatButton from 'material-ui/FlatButton';
 import RaisedButton from 'material-ui/RaisedButton';
+import FloatingActionButton from 'material-ui/FloatingActionButton';
 
 import FontIcon from 'material-ui/FontIcon';
 import ActionAndroid from 'material-ui/svg-icons/action/android'
+import ContentAdd from 'material-ui/svg-icons/content/add';
 import {fullWhite} from 'material-ui/styles/colors';
 
 const styles = {
@@ -132,6 +134,39 @@ storiesOf('Button', module)
           icon={<FontIcon className="muidocs-icon-custom-github" />}
           style={{margin: 12}}
         />
+      </div>
+    </MuiThemeProvider>
+  </div>
+))
+.add('Floating Action Button', () => (
+  <div>
+    <MuiThemeProvider
+      muiTheme={getMuiTheme({})}
+    >
+      <div>
+        <FloatingActionButton style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
+
+        <FloatingActionButton mini={true} style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
+
+        <FloatingActionButton secondary={true} style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
+
+        <FloatingActionButton mini={true} secondary={true} style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
+
+        <FloatingActionButton disabled={true} style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
+
+        <FloatingActionButton mini={true} disabled={true} style={{marginRight: 20}}>
+          <ContentAdd />
+        </FloatingActionButton>
       </div>
     </MuiThemeProvider>
   </div>
